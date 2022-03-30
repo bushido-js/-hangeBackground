@@ -2,7 +2,7 @@ const button = document.querySelector('button')
 const body = document.querySelector('body')
 const colors = ['red', 'green', 'blue', 'yellow', 'pink', 'purple']
 
-body.style.backgroundColor = 'gray'
+body.style.backgroundColor = 'white'
 button.addEventListener('click', changeColor)
 
 function changeColor() {
